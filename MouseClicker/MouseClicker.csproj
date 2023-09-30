@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7611761B-35DF-4E3A-9D7F-8FEA77A7F5FA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MouseForms</RootNamespace>
-    <AssemblyName>MouseForms</AssemblyName>
+    <RootNamespace>MouseClicker</RootNamespace>
+    <AssemblyName>MouseClicker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
