@@ -1,4 +1,4 @@
-﻿namespace MouseForms
+﻿namespace MouseClicker
 {
     partial class Form1
     {
