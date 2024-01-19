@@ -42,6 +42,8 @@ namespace MouseClicker
                 {
                     MessageBox.Show("Кол-во миллисекунд должно быть больше кол-ва кликов");
                 }
+
+                button1.Text = "Всего: 0";
             }
             else
             {

@@ -105,7 +105,7 @@
             this.upDownSec.Size = new System.Drawing.Size(57, 20);
             this.upDownSec.TabIndex = 4;
             this.upDownSec.Value = new decimal(new int[] {
-            10000,
+            60000,
             0,
             0,
             0});
