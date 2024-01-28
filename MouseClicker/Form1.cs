@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -24,7 +25,7 @@ namespace MouseClicker
         private void button1_Click(object sender, EventArgs e)
         {
             if (!_isCount)
-            {                
+            {
                 var milliSeconds = Convert.ToInt32(upDownSec.Text);
                 var clicks = Convert.ToInt32(upDownClicks.Text);
                 var interval = milliSeconds / clicks;
@@ -44,9 +45,17 @@ namespace MouseClicker
                 }
 
                 button1.Text = "Всего: 0";
+
+                BackColor = Color.Red;
+                label1.ForeColor = Color.White;
+                label2.ForeColor = Color.White;
             }
             else
             {
+                BackColor = SystemColors.Control;
+                label1.ForeColor = SystemColors.ControlText;
+                label2.ForeColor = SystemColors.ControlText;
+
                 upDownClicks.Enabled = true;
                 upDownSec.Enabled = true;
                 timerClicker.Stop();
